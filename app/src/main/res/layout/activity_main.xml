@@ -5,9 +5,17 @@
     android:layout_height="match_parent"
     tools:context="com.example.application.webviewapp.MainActivity">
 
+    <Button
+        android:id="@+id/notify_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
     <WebView
         android:id="@+id/webview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" >
+
+    </WebView>
 
 </RelativeLayout>
