@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //notification goes here
                 NotificationCompat.Builder builder = new NotificationCompat.Builder( MainActivity.this,"My Notification");
-                builder.setContentTitle("My Title");
-                builder.setContentText("Hello, This is the long text that you want!");
+                builder.setContentTitle("");
+                builder.setContentText("SolarTracker battery is now at 50%!");
                 builder.setSmallIcon(R.drawable.ic_launcher_background);
                 builder.setAutoCancel(true);
 
